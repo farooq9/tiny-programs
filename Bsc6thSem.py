@@ -58,43 +58,43 @@ for x in range(1, 11):
 #       10       20       30       40       50       60       70       80       90      100
 
 # 5program to reverse an array using array index 
-x = ('i', [10, 20, 30, 40, 50])
+import array as a 
+x = a.array('i', [10, 20, 30, 40, 50])
 n = len(x)
 for i in range(n):
     print(x[i], end=' ')
 
 # output
 
-# 6program to accept element in the form of a tuple and display their sum & average
-num = eval(input('Enter elements in (): '))
-sum = 0
-n = len(num)
-for i in range(n):
-    sum += num(i)
-print('Sum of number: ', sum)
-print('Average of numbers:', sum/n)
+# 6program to accept float, integer and string from keyboard
+x = float(input('Enter a number: '))
+y = int(input('Enter a number: '))
+z = (input('Enter a string: '))
+
+print('The float value is', x)
+print('The integer value is', y)
+print('The string value is', z)
 
 # output
+# Enter a number: 4.6
+# Enter a number: 6
+# Enter a string: hello
+# The float value is 4.6
+# The integer value is 6
+# The string value is hello
 
-# 7program to create a dictionary from keyboard & display elements
-x = {}
-print('how many elements?', end=' ')
-n = int(input())
-for i in range(n):
-    print('Enter key:', end=' ')
-    k = input()
-    print('Enter its value: ', end=' ')
-    v = int(input())
-    x.update({k:v})
-print('The dictionary is: ', x)
+# 7program to change case of a given string
+str = 'python is the future'
+print(str.upper())
+print(str.lower())
+print(str.swapcase())
+print(str.title())
 
 # output
-# how many elements? 2
-# Enter key: hello
-# Enter its value:  5
-# Enter key: farooq
-# Enter its value:  4
-# The dictionary is:  {'hello': 5, 'farooq': 4}
+# PYTHON IS THE FUTURE
+# python is the future
+# PYTHON IS THE FUTURE
+# Python Is The Future
 
 # 8program to create list using range()
 list1 = range(10)
