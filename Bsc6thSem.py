@@ -58,13 +58,16 @@ for x in range(1, 11):
 #       10       20       30       40       50       60       70       80       90      100
 
 # 5program to reverse an array using array index 
-import array as a 
-x = a.array('i', [10, 20, 30, 40, 50])
+import array
+x = array.array('i', [10, 20, 30, 40, 50])
 n = len(x)
+print('The length of an array is ', n)
 for i in range(n):
     print(x[i], end=' ')
 
-# output
+#output
+# The length of an array is  5
+# 10 20 30 40 50 
 
 # 6program to accept float, integer and string from keyboard
 x = float(input('Enter a number: '))
@@ -147,3 +150,21 @@ sum(1.5, 10.75)
 # output
 # sum = 25
 # sum = 12.5
+
+# 11Program to create a Dictionary
+x = {}
+n = int(input('How many elements? '))
+for i in range(n):
+    k = int(input('Enter roll no. '))
+    v = input('Enter name ')
+    x.update({k:v})
+    print('The dictionary is: ',x)
+
+#output
+# How many elements? 2
+# Enter roll no. 34
+# Enter name abc
+# The dictionary is:  {34: 'abc'}
+# Enter roll no. 43
+# Enter name xyz
+# The dictionary is:  {34: 'abc', 43: 'xyz'}
