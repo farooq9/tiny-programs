@@ -1,0 +1,30 @@
+My first program with bhailang
+All the best bhai
+
+hi bhai
+  //write the time in 24hr format.
+  bhai ye hai time = 13; //Write your desired time
+  bhai ye hai b = 12; //12pm
+  bhai ye hai c = 18; //6pm
+  
+  agar bhai (time < b) {
+    bol bhai "Good Morning bhai";
+  }
+  
+  agar bhai (time >= b && time < c) {
+    bol bhai "Good AfterNoon bhai";
+  }
+  
+  agar bhai (time >= c && time <= 24){
+    bol bhai "Good Evening bhai";
+  }
+  
+  agar bhai (time > 24){
+    bol bhai "Time galat chal raha hai bhai";
+    bol bhai time;
+  }
+    
+bye bhai
+
+The beautiful and funny language is developed by Rishabh Tripathi & Aniket Singh
+This Program written by Abdul Farooq
